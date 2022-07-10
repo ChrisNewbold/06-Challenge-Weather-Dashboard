@@ -119,9 +119,11 @@ h3 {
   display: inline;
   height: 3rem;
 }
+/* this is the hide class used to hide UI elements */
 .hide {
   display: none;
 }
+/* medea Queries are used to change the layout at certain break points to assist in making the site responsive */
 @media screen and (max-width: 1600px) {
   #search {
     flex-direction: column;

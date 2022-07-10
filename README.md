@@ -32,7 +32,7 @@ https://chrisnewbold.github.io/05-Third-Party-APIs-Chris-Newbold-Work-Day-Schedu
 
 ## Site Screen Shot
 
-![](https://raw.githubusercontent.com/ChrisNewbold/05-Third-Party-APIs-Chris-Newbold-Work-Day-Scheduler/main/Assets/Images/Chris%20Newbold%20Work%20Day%20Scheduler.png)
+![]()
 
 ## References
 

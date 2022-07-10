@@ -46,7 +46,6 @@ async function getWeatherDetails(selectedCity) {
         const city = data[0].name;
         saveCityToLocalStorage(city);
         $('#selected-city').text(`${city}, ${country}`);
-        // $('#selected-city-country').text(`(${data[0].country})`);
         const weatherApiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${data[0].lat}&lon=${data[0].lon}&appid=24c5d59f8495778a4808807285a58af8&units=metric`
         const weatherApiResponse = await fetch(weatherApiUrl)
         if (weatherApiResponse.ok) {
@@ -108,7 +107,7 @@ function saveCityToLocalStorage(selectedCity) {
 
     if (!savedCities) {
         savedCities = [selectedCity];
-    } else {//if savedCities.indexof(selectedCity) > -1
+    } else {
         savedCities.push(selectedCity);
     }
 

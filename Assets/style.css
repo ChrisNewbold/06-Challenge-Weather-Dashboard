@@ -37,6 +37,10 @@ body {
   font-size: 16px;
   margin: auto;
 }
+/* this class determins the card header background colour */
+.card-header {
+  background-color: skyblue;
+}
 /* this class determins the background colour of the card style */
 .card-body {
   background-color: #f7f8f9;
@@ -57,18 +61,7 @@ h3 {
   gap: 60px;
   margin: auto;
 }
-/* this class determins the card header background colour */
-.card-header {
-  background-color: skyblue;
-}
-/* this class determins the font size and alignment within the input search field */
-.form-control {
-  font-size: 32px;
-  align-items: center;
-}
-.form-control:hover {
-  background-color: #f7f8f9;
-}
+/* search section id sytle this also determins the section wrap */
 #search {
   flex-direction: column;
   align-items: center;
@@ -76,51 +69,55 @@ h3 {
   margin: auto;
   margin-top: 0;
 }
+/* this class determins the font size and alignment within the input search field */
+.form-control {
+  font-size: 32px;
+  align-items: center;
+}
+/* class that dictates the hover colour for the input field */
+.form-control:hover {
+  background-color: #f7f8f9;
+}
+/* Search City ID */
+#search-city {
+  width: 450px;
+  height: 70px;
+}
+/* search bar ID */
 #search-bar {
   flex-direction: column;
 }
+/* search button ID */
 #search-btn {
   font-weight: bold;
   background-color: skyblue;
   border-color: skyblue;
 }
-#search-city {
-  width: 450px;
-  height: 70px;
-}
+/* previously searched ID padding */
 #previously-searched {
   padding: inherit;
 }
-#previously-searched ul {
-  padding-left: 0;
-}
-#previously-searched li {
-  font-size: 25px;
-  align-items: center;
-  align-content: center;
-}
+/* clear button ID */
 #clear-button {
   margin-bottom: 10px;
   font-weight: bold;
   background-color: skyblue;
   border-color: skyblue;
 }
+/* weather today ID max width */
 #weather-today {
   max-width: 90%;
 }
+/* weather forecast ID */
 #weather-forecast {
   flex-wrap: wrap;
   align-content: center;
   max-width: 90%;
 }
+/* icon class */
 .img-resize {
   display: inline;
   height: 3rem;
-}
-footer {
-  height: 25px;
-  line-height: 1;
-  background-color: skyblue;
 }
 .hide {
   display: none;
@@ -161,6 +158,35 @@ footer {
   .container {
     display: flex;
     flex-direction: column;
+  }
+  #weather {
+    max-width: 100%;
+  }
+  #weather-forecast {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 770px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #weather {
+    max-width: 100%;
+  }
+  #weather-forecast {
+    flex-direction: column;
+    gap: 280px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #weather {
+    max-width: 100%;
   }
   #weather-forecast {
     flex-direction: column;

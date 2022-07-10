@@ -28,14 +28,14 @@ THEN I am again presented with current and future conditions for that city
 
 ## Site Link
 
-https://chrisnewbold.github.io/05-Third-Party-APIs-Chris-Newbold-Work-Day-Scheduler/
+![](https://chrisnewbold.github.io/06-Challenge-Weather-Dashboard/)
 
 ## Site Screen Shot
 
-![]()
+![](https://chrisnewbold.github.io/06-Challenge-Weather-Dashboard/)
 
 ## References
 
-Bootstrap: https://getbootstrap.com/docs/4.0/components/card/
-Moment.js(): https://momentjs.com/docs/#/plugins/msdate/
-OpenWeather: https://openweathermap.org/api/one-call-3
+Bootstrap:![](https://getbootstrap.com/docs/4.0/components/card/)
+Moment.js(): ![](https://momentjs.com/docs/#/plugins/msdate/)
+OpenWeather: ![](https://openweathermap.org/api/one-call-3)

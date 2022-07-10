@@ -32,8 +32,11 @@ you can view the site [here](https://chrisnewbold.github.io/06-Challenge-Weather
 
 ## Site Screen Shot
 
-to view the site screen grabs![](./Assets/Images/Search%20page.png)
-[](./Assets/Images/Search%20results%20page.png)
+Site screen grabs
+
+![](./Assets/Images/Search%20page.png)
+
+![](./Assets/Images/Search%20results%20page.png)
 
 ## References
 

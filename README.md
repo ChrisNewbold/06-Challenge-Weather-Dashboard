@@ -28,7 +28,7 @@ THEN I am again presented with current and future conditions for that city
 
 ## Site Link
 
-you cna view the site [here](https://chrisnewbold.github.io/06-Challenge-Weather-Dashboard/)
+you can view the site [here](https://chrisnewbold.github.io/06-Challenge-Weather-Dashboard/)
 
 ## Site Screen Shot
 
@@ -36,10 +36,10 @@ to view the site screen grabs click [here](https://chrisnewbold.github.io/06-Cha
 
 ## References
 
-I used [getbootstrap.com](https://getbootstrap.com/docs/4.0/components/card/) for styling
+I used [getbootstrap.com](https://getbootstrap.com/docs/4.0/components/card/) for styling and content elements
 
-I used [Moment.js.com](https://momentjs.com/docs/#/plugins/msdate/)
+I used [Moment.js.com](https://momentjs.com/docs/#/plugins/msdate/) date objects
 
 [OpenWeathermap.org](https://openweathermap.org/api/one-call-3) for api calls
 
-[jQueary.com](https://api.jquery.com/id-selector/#id1) was used in the JS file
+[jQueary.com](https://api.jquery.com/id-selector/#id1) was used to help write the JS file

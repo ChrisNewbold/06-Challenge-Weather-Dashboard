@@ -1,0 +1,169 @@
+/* Custom global styling */
+:root {
+  font-family: "Barlow Condensed", sans-serif;
+}
+/* header class */
+.jumbotron {
+  background-color: skyblue;
+  color: var(--white);
+}
+/* header paragraph class */
+.lead {
+  text-align: center;
+}
+/* the class determining the lowUV colour */
+.lowUV {
+  background-color: var(--green);
+}
+/* the class determining the moderateUV colour */
+.moderateUV {
+  background-color: var(--yellow);
+}
+/* the class determining the highUV colour */
+.highUV {
+  background-color: var(--orange);
+}
+/* the class determining the very-highUV colour */
+.very-highUV {
+  background-color: var(--red);
+}
+/* the class determining the extremeUV colour */
+.extremeUV {
+  background: var(--pink);
+}
+/* this class determins the body font, size and margin */
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  margin: auto;
+}
+/* this class determins the background colour of the card style */
+.card-body {
+  background-color: #f7f8f9;
+}
+/* heading styles */
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+h2,
+h3 {
+  text-align: left;
+}
+/* this class is determining the container the body elements are wrapped in */
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin: auto;
+}
+/* this class determins the card header background colour */
+.card-header {
+  background-color: skyblue;
+}
+/* this class determins the font size and alignment within the input search field */
+.form-control {
+  font-size: 32px;
+  align-items: center;
+}
+.form-control:hover {
+  background-color: #f7f8f9;
+}
+#search {
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  margin-top: 0;
+}
+#search-bar {
+  flex-direction: column;
+}
+#search-btn {
+  font-weight: bold;
+  background-color: skyblue;
+  border-color: skyblue;
+}
+#search-city {
+  width: 450px;
+  height: 70px;
+}
+#previously-searched {
+  padding: inherit;
+}
+#previously-searched ul {
+  padding-left: 0;
+}
+#previously-searched li {
+  font-size: 25px;
+  align-items: center;
+  align-content: center;
+}
+#clear-button {
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: skyblue;
+  border-color: skyblue;
+}
+#weather-today {
+  max-width: 90%;
+}
+#weather-forecast {
+  flex-wrap: wrap;
+  align-content: center;
+  max-width: 90%;
+}
+.img-resize {
+  display: inline;
+  height: 3rem;
+}
+footer {
+  height: 25px;
+  line-height: 1;
+  background-color: skyblue;
+}
+.hide {
+  display: none;
+}
+@media screen and (max-width: 1600px) {
+  #search {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  #weather {
+    margin: auto;
+    max-width: fit-content;
+  }
+  #weather-today {
+    max-width: 90%;
+  }
+  #weather-forecast {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #weather-forecast {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #weather-forecast {
+    flex-direction: column;
+    gap: 280px;
+  }
+}

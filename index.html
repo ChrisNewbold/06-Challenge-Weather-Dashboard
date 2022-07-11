@@ -12,15 +12,11 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-
     <!-- Document Links -->
-
     <!-- CSS file for styling -->
     <link rel="stylesheet" href="./Assets/style.css" />
-
     <!-- JavaScript Link set to defer so that it runs at the end -->
     <script src="./Assets/script.js" defer></script>
-
     <!--Document Fonts using google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +26,6 @@
     />
     <title>Weather Dashboard for todays or the weeks weather forecast</title>
   </head>
-
   <body>
     <!--Header-->
     <div class="jumbotron jumbotron-fluid">
@@ -52,19 +47,18 @@
           >
             Search
           </button>
+          <!--this speaks to the UI of the previously searched-->
+          <button
+            id="clear-button"
+            type="button"
+            class="btn btn-primary btn-lg btn-block"
+          >
+            Clear history
+          </button>
         </form>
-
-        <!--this speaks to the UI of the previously searched-->
-        <button
-          id="clear-button"
-          type="button"
-          class="btn btn-primary btn-lg btn-block"
-        >
-          Clear history
-        </button>
+        <h2 class="m-2">Previously searched:</h2>
         <ul id="previously-searched"></ul>
       </article>
-
       <!--Weather UI-->
       <div id="weather" class="col-9 hide">
         <div class="row mb-3 border-bottom">
@@ -72,7 +66,6 @@
             <span id="selected-city"></span>
           </h2>
         </div>
-
         <!--Today's weather-->
         <h3 class="row mt-4 mb-2">Today's forecast</h3>
         <div id="weather-today" class="card mb-3 px-0 row">
@@ -96,13 +89,12 @@
               <p>Humidity: <span id="humidity-today"></span>%</p>
               <!-- todays weather UV index -->
               <p>
-                UV index:
+                UV index: 10:21
                 <span id="UV-today" class="btn btn-lg" role="button"></span>
               </p>
             </div>
           </div>
         </div>
-
         <!--this speaks to the 5 day forecast section. -->
         <!-- card 1 -->
         <h3 class="row mt-4 mb-2">5-day forecast</h3>
@@ -139,7 +131,7 @@
             </div>
           </div>
           <!-- card 2 -->
-          <div class="card ml-2 mb-3 px-0 col predicted-forecast">
+          <div class="card mx-2 mb-3 px-0 col predicted-forecast">
             <!-- card 2 header -->
             <div class="card-header">
               <h4 id="forecast-date1" class="forecast-date align-middle"></h4>
@@ -191,7 +183,7 @@
                 </p>
                 <!-- day 3 wind id and style -->
                 <p>
-                  Wind:
+                  Wind: 10:21
                   <span id="wind2" class="wind"></span>m/s
                 </p>
                 <!-- day 3 humidity id and style -->
@@ -269,19 +261,17 @@
         </div>
       </div>
     </section>
-
     <!--Bootstrap-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-
     <!--Jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!--Moment.js-->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
 </html>
+```

@@ -39,7 +39,8 @@ body {
 }
 /* this class determins the card header background colour */
 .card-header {
-  background-color: skyblue;
+  color: black;
+  background-color: #d3d3d3;
 }
 /* this class determins the background colour of the card style */
 .card-body {
@@ -80,7 +81,7 @@ h3 {
 }
 /* Search City ID */
 #search-city {
-  width: 450px;
+  width: 300px;
   height: 70px;
 }
 /* search bar ID */
@@ -89,9 +90,18 @@ h3 {
 }
 /* search button ID */
 #search-btn {
-  font-weight: bold;
-  background-color: skyblue;
-  border-color: skyblue;
+  color: black;
+  background-color: #d3d3d3;
+  border-color: #d3d3d3;
+}
+#search-btn:hover {
+  background-color: darkgray;
+}
+.btn {
+  background-color: #d3d3d3;
+}
+.btn:hover {
+  background-color: darkgrey;
 }
 /* previously searched ID padding */
 #previously-searched {
@@ -100,9 +110,12 @@ h3 {
 /* clear button ID */
 #clear-button {
   margin-bottom: 10px;
-  font-weight: bold;
-  background-color: skyblue;
-  border-color: skyblue;
+  color: black;
+  background-color: #d3d3d3;
+  border-color: #d3d3d3;
+}
+#clear-button:hover {
+  background-color: darkgrey;
 }
 /* weather today ID max width */
 #weather-today {

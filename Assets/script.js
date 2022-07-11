@@ -105,10 +105,13 @@ function updateUIWithWeatherData(data) {
 function saveCityToLocalStorage(selectedCity) {
     let savedCities = JSON.parse(localStorage.getItem("previousSearchedCities"));
 
+
     if (!savedCities) {
         savedCities = [selectedCity];
     } else {
-        savedCities.push(selectedCity);
+        if (savedCities.indexOf(selectedCity) === -1) {
+            savedCities.push(selectedCity);
+        }
     }
 
     localStorage.setItem("previousSearchedCities", JSON.stringify(savedCities));
